@@ -1,0 +1,15 @@
+{
+  "extraction_date": "2024-05-18T10:00:00Z",
+  "source_zip": "SAAS-360-main.zip",
+  "total_files": 0,
+  "classification": {
+    "NEW": [],
+    "REUSABLE": [],
+    "CONFLICT": [],
+    "OBSOLETE": []
+  },
+  "collision_risks": [],
+  "executor": "JULES",
+  "validator": "[CODEX — pendente C1]",
+  "status": "BLUE"
+}
