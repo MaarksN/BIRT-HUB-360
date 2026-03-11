@@ -1,0 +1,9 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Frontend placeholder'",
+    "build": "echo 'Frontend build'"
+  }
+}
