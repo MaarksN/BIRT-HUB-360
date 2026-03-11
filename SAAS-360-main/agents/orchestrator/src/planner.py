@@ -53,12 +53,9 @@ def topological_sort(graph: Dict[str, Set[str]]) -> List[List[str]]:
 class AsyncMemoryPool:
     def __init__(self):
         self._pool = {}
-        self._lock = asyncio.Lock()
 
     async def get(self, key: str):
-        async with self._lock:
-            return self._pool.get(key)
+        return self._pool.get(key)
 
     async def set(self, key: str, value: any):
-        async with self._lock:
-            self._pool[key] = value
+        self._pool[key] = value
